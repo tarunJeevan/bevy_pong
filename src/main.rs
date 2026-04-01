@@ -16,6 +16,7 @@ fn main() {
         .add_plugins(DefaultPlugins)
         .init_state::<AppStates>()
         .add_plugins(game::GamePlugin)
+        .add_plugins(game::PaddlePlugin)
         // .add_plugins(menu::MenuPlugin)
         // .add_systems(Startup, setup)
         // .add_systems(Update, movement_system)
